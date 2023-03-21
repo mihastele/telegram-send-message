@@ -35,10 +35,8 @@ in bash:
 - Look for the chat object in the JSON response and find the id value. This is your chat ID.
 
 - In your Python script, assign the chat ID to the CHAT_ID variable or add the following line in your `.env` file previously created:
- 
-python
 
-CHAT_ID = "<your_chat_id>"
+        CHAT_ID = "<your_chat_id>"
 
 Replace <your_chat_id> with the chat ID obtained in step 4.
 
